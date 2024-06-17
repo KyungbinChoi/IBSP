@@ -19,3 +19,10 @@ def poisson_binom_plot(n, p):
     plt.legend(['binom', 'poisson', 'norm'])
     plt.title(f'N={n}, p={p}')
     plt.show()
+
+if __name__ == "__main__":
+    poisson_binom_plot(5, 0.9)
+    # poisson_binom_plot(20, 0.4)
+    # poisson_binom_plot(20, 0.9)
+    # poisson_binom_plot(40, 0.9)
+    # poisson_binom_plot(100, 0.0001)
